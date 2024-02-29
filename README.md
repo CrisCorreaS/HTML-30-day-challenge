@@ -1,10 +1,10 @@
-![Badge Finalizado](https://img.shields.io/badge/STATUS-FINALIZADO-violet)
+# 💻 HTML 30 day challenge
+![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 <img align="right" alt="License MIT" src="https://img.shields.io/badge/LICENSE-MIT-green" /> <br/>
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white")
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-# 💻 HTML 30 day challenge
 Este repositorio contiene las soluciones del ["HTML 30 day challenge"](https://lenguajehtml.com/challenge/) creado por @ManzDev. El desafío tiene como objetivo ayudar a los desarrolladores a mejorar sus habilidades en HTML, CSS y JavaScript mediante la resolución diaria de ejercicios prácticos que van aumentando su complejidad.
 
 ## 💡 Descripción del Desafío
