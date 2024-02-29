@@ -10,7 +10,7 @@ Este repositorio contiene las soluciones del ["HTML 30 day challenge"](https://l
 ## 💡 Descripción del Desafío
 El desafío consiste en completar una serie de ejercicios diarios que abarcan diferentes aspectos de HTML. Cada ejercicio proporciona un problema específico que debe resolverse utilizando HTML, CSS y posiblemente JavaScript.
 
-### 🤖 Instrucciones de Manz
+## 🤖 Instrucciones de Manz
 - Puedes hacer los retos día a día, o si lo prefieres y tienes el tiempo necesario, hacer varios retos al día. ¡Tú decides!
 - Cada día se plantea un ejercicio. Interpretar lo que te pide forma parte del reto.
 - La idea es trabajarlo sólo con HTML y CSS. Sólo algunos retos requieren Javascript.
