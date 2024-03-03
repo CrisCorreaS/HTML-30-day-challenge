@@ -102,8 +102,20 @@ main {
   transform: translateX(4px);
 }
 
-footer {
+.footer {
+  display: block;
   margin: 50px;
+}
+
+.footer a{
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(223, 77, 223);
+  font-weight: bold;
+}
+
+footer {
+    margin: 20px;
 }
 
 .checkbox-wrapper-25 input[type="checkbox"] {
@@ -183,4 +195,8 @@ footer {
 .darkmode .action {
   color: navy;
   background-color: navajowhite;
+}
+
+.darkmode .footer a {
+  color: #6b9aff;
 }
