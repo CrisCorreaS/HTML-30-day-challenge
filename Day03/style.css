@@ -26,7 +26,7 @@ header h2 {
 }
 
 main,
-footer,
+.button-footer,
 footer div {
   display: flex;
   justify-content: center;
@@ -115,7 +115,7 @@ footer div {
   font-weight: bold;
 }
 
-footer {
+.button-footer {
   margin: 20px;
 }
 
