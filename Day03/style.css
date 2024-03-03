@@ -26,14 +26,16 @@ header h2 {
 }
 
 main,
-footer {
+footer,
+footer div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
 }
 
-main {
+main,
+footer div {
   gap: 20px;
 }
 
@@ -45,7 +47,7 @@ main {
   border: 1px solid transparent;
 }
 
-.card main a {
+.card div a {
   text-decoration: none;
 }
 
@@ -53,7 +55,6 @@ main {
   color: rgb(223, 77, 223);
   font-weight: bold;
 }
-
 
 .content {
   display: block;
@@ -107,7 +108,7 @@ main {
   margin: 50px;
 }
 
-.footer a{
+.footer a {
   cursor: pointer;
   text-decoration: none;
   color: rgb(223, 77, 223);
@@ -115,7 +116,7 @@ main {
 }
 
 footer {
-    margin: 20px;
+  margin: 20px;
 }
 
 .checkbox-wrapper-25 input[type="checkbox"] {
