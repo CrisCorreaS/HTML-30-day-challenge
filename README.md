@@ -39,11 +39,11 @@ Puedes clonar este repositorio para acceder a las soluciones del desafío. Cada 
 ## 📚 Recursos
 > [!TIP]
 > A lo largo de este challenge, he utilizado los siguientes recursos:
-> - HTML:
+> - **HTML**:
 >    - [Manz.Dev Lenguaje HTML](https://lenguajehtml.com/html/)
 >    - [Validador HTML W3C](https://validator.w3.org/) → Es el validador oficial de la W3C que verifica que el código HTML de un sitio web esté bien estructurado y cumpla con los estándares de la W3C
 >    - [Validador Links W3C](https://validator.w3.org/checklink) → Se utiliza para verificar problemas en los enlaces, anclajes y objetos referenciados en una página web, una hoja de estilo CSS o de manera recursiva en un sitio web completo
-> - CSS:
+> - **CSS**:
 >    - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
 >    - [uiverse.io](https://uiverse.io/elements) → Plataforma web que ofrece una colección de elementos de interfaz de usuario diseñados por la comunidad
 
