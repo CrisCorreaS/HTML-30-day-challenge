@@ -1,0 +1,65 @@
+:root{
+  --bg-deep-green: oklch(44.26% 0.074 181.59);
+  --bg-light-green: oklch(65.44% 0.064 181.59);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 5px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+details {
+  margin-bottom: 15px;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #116056;
+  background-color: var(--bg-deep-green, #116056);
+  width: 500px;
+  color: white;
+}
+
+p {
+  text-align: center;
+  margin-top: 0px;
+  padding: 20px;
+  background-color: #639e93;
+  background-color: var(--bg-light-green, #639e93);
+  width: 500px;
+}
+
+strong {
+  color: darkgreen;
+}
