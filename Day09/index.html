@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Día 9</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="author"
+      href="https://www.linkedin.com/in/cristina-correa-segade/"
+    />
+    <meta
+      name="description"
+      content="Solución del Día 9 del 'HTML 30-day challenge' creado por ManzDev: Crea un pergamino con una lista de objetos, donde se numere con números romanos (mayúsculas)."
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, HTML 30-day challenge, web development, front-end development"
+    />
+  </head>
+  <body>
+    <main>
+      <div id="parchment"></div>
+      <div id="contain">
+        <h1 class="inkTitle">Bulma de Dragon Ball</h1>
+        <p>
+          Bulma, la científica aventurera, es un pilar fundamental en la serie
+          Dragon Ball. Creada por Akira Toriyama, su presencia desde el inicio
+          de la saga marca un camino de ingenio, valentía y amistad.
+        </p>
+        <p>
+          Su búsqueda por las Esferas del Dragón la lleva a cruzarse con Goku,
+          dando inicio a una aventura llena de peligros y desafíos. A lo largo
+          de la historia, Bulma se consolida como una aliada invaluable, gracias
+          a su mente brillante y su pasión por la tecnología.
+        </p>
+        <p>
+          Bulma es un personaje complejo y fascinante que ha cautivado a
+          millones de fans alrededor del mundo. Su presencia en Dragon Ball es
+          indispensable, y su legado continuará inspirando a las nuevas
+          generaciones, es por eso que en este día de los challenges de HTML me
+          gustaría hacer un pequeño homenaje a Akira Toriyama y a las mujeres
+          por el 8M
+        </p>
+        <h2>Mi Top 5 invenciones favoritas de Bulma</h2>
+        <ol type="I">
+          <li>El Radar del Dragón</li>
+          <li>La Máquina del Tiempo</li>
+          <li>El Traductor universal</li>
+          <li>El Generador de Rayos Bruits</li>
+          <li>El Reloj del Gran Saiyaman</li>
+        </ol>
+      </div>
+    </main>
+    <svg>
+      <filter id="wavy2">
+        <feTurbulence
+          x="0"
+          y="0"
+          baseFrequency="0.02"
+          numOctaves="5"
+          seed="1"
+        />
+        <feDisplacementMap in="SourceGraphic" scale="20" />
+      </filter>
+    </svg>
+  </body>
+</html>
