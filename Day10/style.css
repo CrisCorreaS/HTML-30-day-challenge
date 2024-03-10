@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  background: linear-gradient(to right, #81e6d9, #3b82f6, #9333ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 10px 0px 70px;
+  text-align: center;
+}
+
+a {
+  color: azure;
+  cursor: pointer;
+  text-decoration: none;
+}
