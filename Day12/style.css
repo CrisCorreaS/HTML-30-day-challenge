@@ -1,0 +1,49 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  color: #24401b;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+p {
+  text-align: center;
+}
+
+strong {
+  color: olive;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 20px;
+}
+
+input[type="range"] {
+  accent-color: #24401b;
+  width: 45%;
+}
+
+output{
+  font-size: large;
+  width: 25px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Día 12</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="author"
+      href="https://www.linkedin.com/in/cristina-correa-segade/"
+    />
+    <meta
+      name="description"
+      content="Solución del Día 12 del 'HTML 30-day challenge' creado por ManzDev: Crea un slider que permita seleccionar un número entre 1-50 y lo muestre en vivo al cambiar. Requiere algo de Javascript."
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, Javascript, HTML 30-day challenge, web development, front-end development"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>Pon opacidad a esta Fotografía</h1>
+      <p>
+        Elige del <strong>1</strong> al <strong>50</strong> cuanta opacidad le
+        quieres poner a esta fotografía:
+      </p>
+      <form action="#">
+        <input
+          type="range"
+          value="50"
+          min="1"
+          max="50"
+          step="0.5"
+          id="range"
+          onInput="this.nextElementSibling.value = this.value"
+        />
+        <output>50</output>
+      </form>
+      <img
+        src="img/img.webp"
+        alt="Hojas de una planta muy bonita"
+        title="Imagen de hojas"
+      />
+      <p id="total">Opacidad 1.000</p>
+    </main>
+  </body>
+</html>
