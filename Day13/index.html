@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Día 13</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="author"
+      href="https://www.linkedin.com/in/cristina-correa-segade/"
+    />
+    <meta
+      name="description"
+      content="Solución del Día 13 del 'HTML 30-day challenge' creado por ManzDev: Crea una barra medidora que muestre los tickets vendidos en un cine (Ejemplo: 64/100 tickets vendidos)."
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, HTML 30-day challenge, web development, front-end development"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Entradas vendidas</h1>
+      <h2>Película del Rei León de Disney</h2>
+    </header>
+    <main>
+      <img
+        src="https://ih1.redbubble.net/image.3840657591.1213/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+        alt="Película del Rei León"
+      />
+      <form action="#">
+        <label>
+          <meter value="64" max="100" low="60" high="85" optimum="100"></meter>
+          Se han vendido <strong>64 entradas</strong>
+        </label>
+        <label id="numero"
+          >Puedes añadir o quitar hasta 20 entradas 
+          <input type="number" min="-20" max="20" pattern="[-20-20]" value="0" />
+        </label>
+        <input type="submit" value="Modificar número de entradas">
+        <p class="hide" id="mensaje">Error</p>
+      </form>
+    </main>
+  </body>
+</html>
