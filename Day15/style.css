@@ -37,4 +37,6 @@ iframe {
   height: 200px;
   display: block;
   margin: 10px auto;
+  border: none;
+  background-color: transparent;
 }
