@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+table {
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 10px;
+  color: #f3f2f2;
+}
+
+th {
+  background-color: sienna;
+}
+
+tfoot td,
+tfoot th {
+  background: grey;
+  color: #f3f2f2;
+  border: 0;
+}
+
+table {
+  caption-side: bottom;
+}
+
+caption {
+  margin: 10px;
+  color: #314521;
+}
+
+tr.title th {
+  background: #000;
+  color: #fff;
+  border: 0;
+}
+
+.first {
+  background: #314521;
+}
+
+.second {
+  background: #435933;
+}
+
+.third {
+  background: #9d6532;
+}
+
+.fourth {
+  background: #b17c50;
+}
+
+.fifth {
+  background: #ca9052;
+}
