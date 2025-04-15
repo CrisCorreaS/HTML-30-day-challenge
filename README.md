@@ -5,6 +5,9 @@
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white")
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
+> [!NOTE]
+> Pronto subiré uan página de Astro con todas las soluciones
+
 Este repositorio contiene las soluciones del ["HTML 30 day challenge"](https://lenguajehtml.com/challenge/) creado por @ManzDev. El desafío tiene como objetivo ayudar a los desarrolladores a mejorar sus habilidades en HTML, CSS y JavaScript mediante la resolución diaria de ejercicios prácticos que van aumentando su complejidad.
 
 ## 💡 Descripción del Desafío
